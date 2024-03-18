@@ -22,11 +22,9 @@
 
 ''SCRIPT
 
-"Test cases for phase 1
+''Valid input
 
-AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
-
-AddUser "rnmith", "password", "Nancy", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "dsmith@sample.com"
 
 ''Invalid input - missing Username
 AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
