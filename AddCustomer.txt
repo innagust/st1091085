@@ -1,0 +1,34 @@
+FILENAME: AddCustomer1
+
+''***************************************************************************************************
+''ABOUT THIS FILE
+''AUTHOR IDENTETY:
+''Initials                               Name/Company
+''_______________                        ____________________________________________________________
+''                                       ABC INC
+
+''REVISION HISTORY:
+''Date/Initials                          Comments
+''_______________                        ____________________________________________________________
+''26/08/2023                             Created for ABV INC
+	
+
+	
+
+
+''************************************************************************************************
+
+''SCRIPT
+
+
+'Invalid input - missing First Name
+
+AddCustomer "", "Roberts", "1100 Sunset Blvd", "Hollywood", "CA", "98286"
+
+'Invalid input - missing Last Name
+
+AddCustomer "Julia", "", "1100 Sunset Blvd", "Hollywood", "CA", "98286"
+
+'Valid Input
+
+AddCustomer  "Julia", "Roberts", "1100 Sunset Blvd", "Hollywood", "CA", "98286"
