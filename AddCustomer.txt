@@ -32,3 +32,12 @@ AddCustomer "Julia", "", "1100 Sunset Blvd", "Hollywood", "CA", "98286"
 'Valid Input
 
 AddCustomer  "Julia", "Roberts", "1100 Sunset Blvd", "Hollywood", "CA", "98286"
+
+' Valid input
+AddCustomer "Drew", "Wang", "2345 Sunny St", "Hollywood", "CA", "45623"
+
+' Valid input
+AddCustomer "Mary", "Swang", "345 St", "Seattle",  "WA", "98067"
+
+' Invalid input - missing area code
+AddCustomer "Mary", "Wang", "345 st", "Seattle", "WA", ""
